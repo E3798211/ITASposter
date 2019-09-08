@@ -1,0 +1,4 @@
+set xlabel "Time, ms"
+set ylabel "CQI"
+set yrange [0:16]
+plot "CQI_current" w l lt rgb "blue" title "Current CQI", "CQI_conservative" w l lt rgb "red" title "Conservative CQI"
