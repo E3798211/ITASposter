@@ -1,0 +1,12 @@
+Here you can see statistic approach performance compared to some other solutions“ results on a couple of benchmarks. Algorithms are tested in two situations: UE“s speed is high (vehicle) and low (pedestrian) and, concequently, link status varies at different rates in time.
+First of all, it is obvious that URLLC requirements can be satisfied in the pedestrian case with almost every solution so we will remove it from further consideration.
+As it can be seen on the lower plots, in vehicle case algorithms“ behaviours differ really much. Some efforts must be made to find suitable parameters to achieve acceptable PLR and not to waste resourses.
+One moment deserves additional attention. On the left-most plot you can see that statistic approach demonstrates acceptable PLR in configuration with P_thresh = 0.999 but right-most plot shows that this soution consumes more resourses when SNR lays between 0 and 7db. To use advantages of both approaches we can combine these solutions. For example, using conservative approach with SNR less than 5db and statistic in other cases may provide us with a more flexible solution.
+
+
+Here you can see statistic approach performance compared to some other solutions“ results on a couple of benchmarks. Algorithms are tested in two situations: UE“s speed is high (vehicle) and low (pedestrian) and, concequently, link status varies at different rates in time.
+First of all, it is obvious that URLLC requirements can be satisfied in the pedestrian case with almost every solution so we will remove it from further consideration.
+As it can be seen on the lower plots, in vehicle case algorithms“ behaviours differ really much. Some efforts must be made to find suitable parameters to achieve acceptable PLR and not to waste resourses.
+One moment deserves additional attention. On the left-most plot you can see that statistic approach demonstrates acceptable PLR in configuration with P_thresh = 0.999 but right-most plot shows that this soution consumes more resourses when SNR lays between 0 and 7db. To use advantages of both approaches we can combine these solutions. For example, using conservative approach with SNR less than 5db and statistic in other cases may provide us with a more flexible solution.
+
+
